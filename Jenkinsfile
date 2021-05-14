@@ -89,7 +89,7 @@ pipeline {
     stage('Build Helm Charts') {
             
             steps {
-              dir('charts') {}
+              dir('charts') {
              sh "helm package iwayq-web-app"
 					   sh "helm push-artifactory iwayq-web-app iwayq-local"
 					  }
