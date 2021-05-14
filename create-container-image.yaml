@@ -8,8 +8,8 @@
     get_url:
       url: https://iwayqweb.jfrog.io/artifactory/iwayq-maven-local/com/iwayq/iwayQApp/1.0-RELEASE/iwayQApp-1.0-RELEASE.war
       dest: .
-      url_username: admin
-      url_password: Admin123
+      url_username: prreddy1986@gmail.com
+      url_password: mko09ijN
 
   - name: Rename .war Artifact
     command: mv iwayQApp-1.0-RELEASE.war iwayq.war
