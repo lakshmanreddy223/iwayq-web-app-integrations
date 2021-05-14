@@ -53,8 +53,8 @@ pipeline {
                 rtMavenResolver (
                     id: "MAVEN_RESOLVER",
                     serverId: "jfrog",
-                    releaseRepo: "iwayq-maven-virtual",
-                    snapshotRepo: "iwayq-maven-virtual"
+                    releaseRepo: "default-maven-virtual",
+                    snapshotRepo: "default-maven-virtual"
                 )
             }
     }
