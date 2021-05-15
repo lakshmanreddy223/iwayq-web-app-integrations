@@ -91,7 +91,7 @@ pipeline {
             steps {
               dir('charts') {
              sh "/usr/local/bin/helm package iwayq-web-app"
-					   sh "/usr/local/bin/helm push-artifactory iwayq-web-app iwayq-local"
+					   sh "sudo /usr/local/bin/helm push-artifactory iwayq-web-app iwayq-local"
 					  }
           }
             
